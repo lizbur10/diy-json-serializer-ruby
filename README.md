@@ -284,7 +284,6 @@ can use to identify the different elements, and add our `Next` link.
 
 ```erb
 # posts/show.html.erb
-<div class="authorName"><%= @post.author.name %></div>
 <a href="#" class="js-next" data-id="<%=@post.id%>">Next...</a>
 <h1 class="postTitle"><%= @post.title %></h1>
 <p class="postBody"><%= @post.description %></p>
